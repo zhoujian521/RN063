@@ -28,6 +28,15 @@ build/
 .gradle
 local.properties
 *.iml
+android/.project
+android/.settings
+android/gradle/wrapper/*.zip
+android/out
+android/app/.project
+android/app/bin
+android/app/.classpath
+android/app/.settings
+apks
 
 # node.js
 #
@@ -57,3 +66,5 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+/ios/app/
+/ios/vendor/
