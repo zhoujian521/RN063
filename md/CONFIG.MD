@@ -1,4 +1,4 @@
-# CONFIG
+# config
 
 ## 1：创建新项目
 
@@ -37,3 +37,7 @@
     android/app/.settings
     apks
 ```
+
+## 3：配置 TypeScript 编译器 
+
+>详情参考  md/TypeScrip.MD

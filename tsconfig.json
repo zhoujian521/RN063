@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowJs": true,                              /* Allow javascript files to be compiled. */
+    "allowSyntheticDefaultImports": true,         /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+    "baseUrl": ".",                               /* Base directory to resolve non-absolute module names. */
+    "checkJs": false,                             /* Report errors in .js files. */
+    "experimentalDecorators": true,               /* Enables experimental support for ES7 decorators. */
+    "isolatedModules": true,                      /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
+    "jsx": "react-native",                        /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
+    "lib": ["es6", "dom"],                        /* Specify library files to be included in the compilation. */
+    "module": "esnext",                           /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
+    "moduleResolution": "node",                   /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+    "noEmit": true,                               /* Do not emit outputs. */
+    "noImplicitAny": true,                        /* Raise error on expressions and declarations with an implied 'any' type. */
+    "noImplicitReturns": true,                    /* Report error when not all code paths in function return a value. */
+    "noImplicitThis": true,                       /* Raise error on 'this' expressions with an implied 'any' type. */
+    "noUnusedLocals": true,                       /* Report errors on unused locals. */
+    "paths": {                                    /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+      "*": ["src/*", "src/*.ios", "src/*.android"]
+    },
+    "sourceMap": true,                            /* Generates a sourcemap for each corresponding '.d.ts' file. */
+    "strictNullChecks": true,                     /* Enable strict null checks. */
+    "target": "esnext",                            /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
