@@ -41,3 +41,9 @@
 ## 3：配置 TypeScript 编译器 
 
 >详情参考  md/TypeScrip.MD
+
+## 4：配置 ESLint 代码检测
+
+```
+Lint 工具用于检查代码的语法是否正确、风格是否符合要求。最新的工具 ESLint 不仅允许你自定义语法规则，还允许用户创造插件，改变默认的 JavaScript 语法，比如支持 ES6 和 JSX 的语法。
+```

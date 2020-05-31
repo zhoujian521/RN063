@@ -1,0 +1,8 @@
+babel.config.js
+react-native.config.js
+jest.setup.js
+metro.config.js
+metro.transformers.js
+
+__mocks__
+src/utils/postAsForm.js
